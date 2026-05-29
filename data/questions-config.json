@@ -1,0 +1,42 @@
+{
+  "10-AC": {
+    "type": "positive"
+  },
+  "11-AC": {
+    "type": "negative",
+    "favorableTokens": ["ninguno", "ninguna", "nada", "ninguno realmente", "todo fácil", "no hubo", "todo sencillo", "todo claro"],
+    "unfavorableTokens": ["difícil", "dificil", "difíciles", "confuso", "confusos", "complicado", "complicada", "complejo", "compleja", "frustrante", "no entendí", "no entendi"]
+  },
+  "12-AC": {
+    "type": "comparison",
+    "favorableTokens": ["mejor", "más fácil", "mas facil", "más simple", "más intuitivo", "más completo", "más entretenido", "supera", "superior"],
+    "unfavorableTokens": ["peor", "más difícil", "mas dificil", "más complicado", "menos intuitivo", "inferior", "menos completo"]
+  },
+  "14-AC": {
+    "type": "positive"
+  },
+  "15-AC": {
+    "type": "recommendation",
+    "affirmativeTokens": ["sí", "si ", "claro", "por supuesto", "definitivamente", "me gustaría", "me encantaría", "obvio", "seguro"],
+    "negativeTokens": ["no ", "no me", "no creo", "no lo", "tal vez no", "no sería", "no necesito", "no usaría"]
+  },
+  "18-SyM": {
+    "type": "suggestion"
+  },
+  "19-SyM": {
+    "type": "suggestion"
+  },
+  "21-PEpE": {
+    "type": "recommendation",
+    "affirmativeTokens": ["sí", "si ", "podría", "claro", "definitivamente", "por supuesto", "creo que sí"],
+    "negativeTokens": ["no ", "no creo", "no lo", "no sería", "no podría"]
+  },
+  "22-PEpE": {
+    "type": "negative",
+    "favorableTokens": ["ninguno", "ninguna", "nada", "no preveo", "no veo", "no hay"],
+    "unfavorableTokens": ["costoso", "costosa", "complicado", "difícil", "dificil", "resistencia", "presupuesto", "currículo", "curriculo", "tiempo", "falta de", "no hay"]
+  },
+  "23-PEpE": {
+    "type": "suggestion"
+  }
+}

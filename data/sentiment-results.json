@@ -1,0 +1,4640 @@
+{
+  "generatedAt": "2026-05-29T17:55:30.789Z",
+  "slang": {
+    "injected": 18,
+    "overrides": [
+      {
+        "word": "chevere",
+        "stem": "chev",
+        "previous": -0.25,
+        "next": 0.7
+      },
+      {
+        "word": "joya",
+        "stem": "joy",
+        "previous": 0.458,
+        "next": 0.6
+      },
+      {
+        "word": "brutal",
+        "stem": "brutal",
+        "previous": -0.344,
+        "next": 0.6
+      },
+      {
+        "word": "parchado",
+        "stem": "parch",
+        "previous": 0.375,
+        "next": 0.5
+      },
+      {
+        "word": "teso",
+        "stem": "tes",
+        "previous": -0.25,
+        "next": 0.5
+      },
+      {
+        "word": "jarto",
+        "stem": "jart",
+        "previous": -0.7,
+        "next": -0.6
+      }
+    ]
+  },
+  "questions": {
+    "1-ID": "Edad",
+    "2-ID": "Nivel educativo actual",
+    "3-ID": "Experiencia previa en programación",
+    "4-AC": "En una escala del 1 al 5, ¿qué tan fácil te resultó entender los conceptos básicos de SCuLPT?",
+    "5-AC": "En una escala del 1 al 5, ¿qué tan fácil te resultó identificar los diferentes tipos de bloques en SCuLPT?",
+    "6-AC": "En una escala del 1 al 5, ¿qué tan fácil te resultó resolver el problema planteado utilizando SCuLPT?",
+    "7-AC": "En una escala del 1 al 5, ¿qué tan util crees que es SCuLPT para entender conceptos basicos de programación?",
+    "8-AC": "En una escala del 1 al 5, ¿cómo calificarias tu experiencia general con SCuLPT?",
+    "9-AC": "Tiempo aproximado que te tomó completar el ejercicio propuesto",
+    "10-AC": "¿Qué aspectos de SCuLPT te parecieron más intuitivos o fáciles de entender?",
+    "11-AC": "¿Qué aspectos te parecieron más dificiles?",
+    "12-AC": "¿Cómo compararías la experiencia de programar con SCuLPT frente a otros lenguajes de programacion que conoces?",
+    "13-AC": "¿Qué conceptos de programación crees que SCuLPT te ayudó a comprender mejor?",
+    "14-AC": "¿Qué te pareció el aspecto visual y artistico de SCuLPT?",
+    "15-AC": "¿Te gustaría utilizar SCuLPT en tus clases o trabajo para aprender o enseñar conceptos de programación? ¿Por qué?",
+    "16-ECC": "Antes de utilizar SCuLPT, ¿cómo evaluarías tu comprension de los siguientes conceptos?",
+    "17-ECC": "Despues de utilizar SCuLPT, ¿cómo evaluarías tu comprension de los siguientes conceptos?",
+    "18-SyM": "¿Qué cambios o mejoras sugerirías para SCuLPT?",
+    "19-SyM": "¿Qué otros problemas o ejercicios te gustaría resolver utilizando SCuLPT?",
+    "20-SyM": "¿Recomendarías SCuLPT a otras personas interesadas en aprender programación?",
+    "21-PEpE": "¿Consideras que SCuLPT podría ser una herramienta util en el aula?",
+    "22-PEpE": "¿Que desafios prevés al implementar SCuLPT en el entorno educativo?",
+    "23-PEpE": "¿Que tipo de acompañamiento o recursos adicionales sería necesarios para implementar SCuLPT efectivamente en el aula?"
+  },
+  "summary": {
+    "favorability": [
+      {
+        "pregunta": "10-AC",
+        "tipo": "positive",
+        "n": 23,
+        "favorabilidad": 3,
+        "IC95": "[3, 3]"
+      },
+      {
+        "pregunta": "11-AC",
+        "tipo": "negative",
+        "n": 22,
+        "favorabilidad": 2.64,
+        "IC95": "[2.32, 2.91]"
+      },
+      {
+        "pregunta": "12-AC",
+        "tipo": "comparison",
+        "n": 19,
+        "favorabilidad": 3.37,
+        "IC95": "[3.16, 3.63]"
+      },
+      {
+        "pregunta": "14-AC",
+        "tipo": "positive",
+        "n": 22,
+        "favorabilidad": 3.77,
+        "IC95": "[3.5, 4.05]"
+      },
+      {
+        "pregunta": "15-AC",
+        "tipo": "recommendation",
+        "n": 22,
+        "favorabilidad": 3.77,
+        "IC95": "[3.45, 4]"
+      },
+      {
+        "pregunta": "21-PEpE",
+        "tipo": "recommendation",
+        "n": 11,
+        "favorabilidad": 3.82,
+        "IC95": "[3.55, 4]"
+      },
+      {
+        "pregunta": "22-PEpE",
+        "tipo": "negative",
+        "n": 8,
+        "favorabilidad": 2.75,
+        "IC95": "[2.38, 3]"
+      }
+    ],
+    "engagement": [
+      {
+        "pregunta": "18-SyM",
+        "tipo": "suggestion",
+        "n": 17,
+        "items_promedio": 1.12,
+        "IC95": "[1, 1.29]"
+      },
+      {
+        "pregunta": "19-SyM",
+        "tipo": "suggestion",
+        "n": 16,
+        "items_promedio": 1.19,
+        "IC95": "[1, 1.38]"
+      },
+      {
+        "pregunta": "23-PEpE",
+        "tipo": "suggestion",
+        "n": 8,
+        "items_promedio": 1.75,
+        "IC95": "[1, 2.75]"
+      }
+    ],
+    "quantSummary": [
+      {
+        "pregunta": "P4-AC",
+        "label": "qué tan fácil entender los conceptos básicos",
+        "n": 30,
+        "promedio": 3.53,
+        "IC95": "[3.23, 3.8]"
+      },
+      {
+        "pregunta": "P5-AC",
+        "label": "qué tan fácil identificar los tipos de bloques",
+        "n": 30,
+        "promedio": 3.67,
+        "IC95": "[3.33, 4]"
+      },
+      {
+        "pregunta": "P6-AC",
+        "label": "qué tan fácil resolver el problema",
+        "n": 29,
+        "promedio": 3.03,
+        "IC95": "[2.72, 3.34]"
+      },
+      {
+        "pregunta": "P7-AC",
+        "label": "qué tan útil para entender programación",
+        "n": 29,
+        "promedio": 4.31,
+        "IC95": "[4.07, 4.55]"
+      },
+      {
+        "pregunta": "P8-AC",
+        "label": "experiencia general con SCuLPT",
+        "n": 29,
+        "promedio": 4.38,
+        "IC95": "[4.1, 4.62]"
+      },
+      {
+        "pregunta": "P20-SyM",
+        "label": "¿recomendarías SCuLPT?",
+        "n": 18,
+        "promedio": 4.67,
+        "IC95": "[4.44, 4.89]"
+      }
+    ],
+    "anchors": [
+      {
+        "par": "10-AC ↔ P5-AC",
+        "descripcion": "\"más intuitivo\" ↔ \"fácil identificar bloques\"",
+        "n": 23,
+        "rho_spearman": null,
+        "interpretacion": "n/a"
+      },
+      {
+        "par": "11-AC ↔ P4-AC",
+        "descripcion": "\"más difícil\" (invertido) ↔ \"fácil entender\"",
+        "n": 22,
+        "rho_spearman": 0.315,
+        "interpretacion": "+ moderada"
+      },
+      {
+        "par": "11-AC ↔ P6-AC",
+        "descripcion": "\"más difícil\" (invertido) ↔ \"fácil resolver\"",
+        "n": 22,
+        "rho_spearman": 0.392,
+        "interpretacion": "+ moderada"
+      },
+      {
+        "par": "14-AC ↔ P8-AC",
+        "descripcion": "\"aspecto visual\" ↔ \"experiencia general\"",
+        "n": 22,
+        "rho_spearman": -0.107,
+        "interpretacion": "- débil"
+      },
+      {
+        "par": "15-AC ↔ P20-SyM",
+        "descripcion": "\"¿usarías?\" ↔ \"¿recomendarías?\"",
+        "n": 17,
+        "rho_spearman": 0.019,
+        "interpretacion": "≈ 0 (sin relación)"
+      },
+      {
+        "par": "composite ↔ composite",
+        "descripcion": "favorabilidad textual agregada ↔ Likert cuantitativo agregado",
+        "n": 26,
+        "rho_spearman": 0.307,
+        "interpretacion": "+ moderada"
+      }
+    ],
+    "prePost": [
+      {
+        "concepto": "Variables y tipos de datos",
+        "n_pares": 15,
+        "pre_promedio": 3.1,
+        "post_promedio": 3.63,
+        "delta_promedio": 0.67,
+        "delta_IC95": "[0.2, 1.27]"
+      },
+      {
+        "concepto": "Operaciones y expresiones",
+        "n_pares": 15,
+        "pre_promedio": 3.24,
+        "post_promedio": 3.65,
+        "delta_promedio": 0.47,
+        "delta_IC95": "[0.07, 0.87]"
+      },
+      {
+        "concepto": "Estructuras de control",
+        "n_pares": 13,
+        "pre_promedio": 3.07,
+        "post_promedio": 3.53,
+        "delta_promedio": 0.54,
+        "delta_IC95": "[0.08, 1.08]"
+      },
+      {
+        "concepto": "Estructuras de datos",
+        "n_pares": 14,
+        "pre_promedio": 2.95,
+        "post_promedio": 3.57,
+        "delta_promedio": 0.57,
+        "delta_IC95": "[0.07, 1.07]"
+      },
+      {
+        "concepto": "Lógica de programación",
+        "n_pares": 14,
+        "pre_promedio": 3.67,
+        "post_promedio": 3.68,
+        "delta_promedio": 0.21,
+        "delta_IC95": "[-0.14, 0.64]"
+      }
+    ]
+  },
+  "perColumn": {
+    "10-AC": {
+      "questionText": "¿Qué aspectos de SCuLPT te parecieron más intuitivos o fáciles de entender?",
+      "type": "positive",
+      "responses": [
+        {
+          "rowIndex": 1,
+          "text": "Como manejar bloques",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.583,
+            "comparative": 0.19433333333333333,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 2,
+          "text": "-",
+          "type": "positive",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 3,
+          "text": "Sobre cómo funcionan los cubos",
+          "type": "positive",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 4,
+          "text": "algo confuso",
+          "type": "positive",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 5,
+          "text": "Las figuras",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.25,
+            "comparative": 0.125,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 6,
+          "text": "En los bloques",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.25,
+            "comparative": 0.08333333333333333,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 7,
+          "text": "La creación del código",
+          "type": "positive",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 8,
+          "text": "-",
+          "type": "positive",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 9,
+          "text": "Los conceptos y la estructura",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.625,
+            "comparative": 0.125,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 10,
+          "text": "programación",
+          "type": "positive",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 11,
+          "text": "Armar bloques",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.25,
+            "comparative": 0.125,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 12,
+          "text": "Los bloques",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.25,
+            "comparative": 0.125,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 13,
+          "text": "La manera en la que él explicaba se entendía que conocía del tema",
+          "type": "positive",
+          "sentiment": {
+            "score": -0.5329999999999999,
+            "comparative": -0.040999999999999995,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 14,
+          "text": "La parte del ejercicio",
+          "type": "positive",
+          "sentiment": {
+            "score": -0.25,
+            "comparative": -0.0625,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 15,
+          "text": "Los sistemas de programación y los bloques",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.25,
+            "comparative": 0.03571428571428571,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 16,
+          "text": "las bases dedatos",
+          "type": "positive",
+          "sentiment": {
+            "score": -0.25,
+            "comparative": -0.08333333333333333,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 17,
+          "text": "Su forma de explicar",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.375,
+            "comparative": 0.09375,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 18,
+          "text": "Las operaciones",
+          "type": "positive",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 19,
+          "text": "PORGAMACION 🗿",
+          "type": "positive",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 20,
+          "text": "La dinámica que genera Sculpt es fácil de entender y usar",
+          "type": "positive",
+          "sentiment": {
+            "score": -0.21399999999999997,
+            "comparative": -0.01945454545454545,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 21,
+          "text": "-",
+          "type": "positive",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 22,
+          "text": "-",
+          "type": "positive",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 23,
+          "text": "-",
+          "type": "positive",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 24,
+          "text": "La estructura de procesamiento",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.688,
+            "comparative": 0.172,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 25,
+          "text": "Armar los prototipos entendiendo las operaciones",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.625,
+            "comparative": 0.10416666666666667,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 26,
+          "text": "-",
+          "type": "positive",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 27,
+          "text": "Los bloques y los códigos",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.25,
+            "comparative": 0.05,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 28,
+          "text": "Delegar nombres a los bloques",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.25,
+            "comparative": 0.05,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 29,
+          "text": "Lo signos, más que todo las flechas",
+          "type": "positive",
+          "sentiment": {
+            "score": -0.125,
+            "comparative": -0.017857142857142856,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 30,
+          "text": "-",
+          "type": "positive",
+          "empty": true,
+          "reason": "empty"
+        }
+      ],
+      "likertValues": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "engagementValues": []
+    },
+    "11-AC": {
+      "questionText": "¿Qué aspectos te parecieron más dificiles?",
+      "type": "negative",
+      "responses": [
+        {
+          "rowIndex": 1,
+          "text": "Alguna de las operaciones",
+          "type": "negative",
+          "sentiment": {
+            "score": 0.25,
+            "comparative": 0.0625,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment-inverted"
+        },
+        {
+          "rowIndex": 2,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 3,
+          "text": "Algunos conceptos de las pilas",
+          "type": "negative",
+          "sentiment": {
+            "score": 0.625,
+            "comparative": 0.125,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment-inverted"
+        },
+        {
+          "rowIndex": 4,
+          "text": "Muy confusos",
+          "type": "negative",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "likert": 1,
+          "reason": "unfavorable-keyword(confuso,confusos)"
+        },
+        {
+          "rowIndex": 5,
+          "text": "No fue bastante fácil",
+          "type": "negative",
+          "sentiment": {
+            "score": 0.125,
+            "comparative": 0.03125,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment-inverted"
+        },
+        {
+          "rowIndex": 6,
+          "text": "El proceso",
+          "type": "negative",
+          "sentiment": {
+            "score": 0.438,
+            "comparative": 0.219,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 2,
+          "reason": "sentiment-inverted"
+        },
+        {
+          "rowIndex": 7,
+          "text": "La función de las operaciones",
+          "type": "negative",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment-inverted"
+        },
+        {
+          "rowIndex": 8,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 9,
+          "text": "Cómo aplicar la estructura",
+          "type": "negative",
+          "sentiment": {
+            "score": 0.5,
+            "comparative": 0.125,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment-inverted"
+        },
+        {
+          "rowIndex": 10,
+          "text": "programación",
+          "type": "negative",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment-inverted"
+        },
+        {
+          "rowIndex": 11,
+          "text": "Hallar la programación",
+          "type": "negative",
+          "sentiment": {
+            "score": -0.25,
+            "comparative": -0.08333333333333333,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment-inverted"
+        },
+        {
+          "rowIndex": 12,
+          "text": "La programación",
+          "type": "negative",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment-inverted"
+        },
+        {
+          "rowIndex": 13,
+          "text": "Resolver algunos problemas",
+          "type": "negative",
+          "sentiment": {
+            "score": -0.187,
+            "comparative": -0.06233333333333333,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment-inverted"
+        },
+        {
+          "rowIndex": 14,
+          "text": "La parte del ejercicio",
+          "type": "negative",
+          "sentiment": {
+            "score": -0.25,
+            "comparative": -0.0625,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment-inverted"
+        },
+        {
+          "rowIndex": 15,
+          "text": "Sculpt fue difícil",
+          "type": "negative",
+          "sentiment": {
+            "score": -0.917,
+            "comparative": -0.3056666666666667,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 1,
+          "reason": "unfavorable-keyword(difícil,dificil)"
+        },
+        {
+          "rowIndex": 16,
+          "text": "simbolos",
+          "type": "negative",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment-inverted"
+        },
+        {
+          "rowIndex": 17,
+          "text": "El no saber a programar eso fue confuso",
+          "type": "negative",
+          "sentiment": {
+            "score": -0.125,
+            "comparative": -0.015625,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 2,
+          "reason": "unfavorable-keyword(confuso)"
+        },
+        {
+          "rowIndex": 18,
+          "text": "La verdad con una mayor explicación se podría comprender a la perfección",
+          "type": "negative",
+          "sentiment": {
+            "score": 0.531,
+            "comparative": 0.044250000000000005,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment-inverted"
+        },
+        {
+          "rowIndex": 19,
+          "text": "PORGAMACION🗿",
+          "type": "negative",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment-inverted"
+        },
+        {
+          "rowIndex": 20,
+          "text": "El uso de bloques a veces genera confusión pero no hay pérdida",
+          "type": "negative",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment-inverted"
+        },
+        {
+          "rowIndex": 21,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 22,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 23,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 24,
+          "text": "codigo",
+          "type": "negative",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment-inverted"
+        },
+        {
+          "rowIndex": 25,
+          "text": "El último ejercicio",
+          "type": "negative",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment-inverted"
+        },
+        {
+          "rowIndex": 26,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 27,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 28,
+          "text": "No asignarle un rol",
+          "type": "negative",
+          "sentiment": {
+            "score": -0.125,
+            "comparative": -0.03125,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment-inverted"
+        },
+        {
+          "rowIndex": 29,
+          "text": "duplicar y comparar debido a que es mas dificil con todas las fichas",
+          "type": "negative",
+          "sentiment": {
+            "score": -1.2710000000000001,
+            "comparative": -0.09776923076923077,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 1,
+          "reason": "unfavorable-keyword(difícil,dificil)"
+        },
+        {
+          "rowIndex": 30,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        }
+      ],
+      "likertValues": [
+        3,
+        3,
+        1,
+        3,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        1,
+        3,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        1
+      ],
+      "engagementValues": []
+    },
+    "12-AC": {
+      "questionText": "¿Cómo compararías la experiencia de programar con SCuLPT frente a otros lenguajes de programacion que conoces?",
+      "type": "comparison",
+      "responses": [
+        {
+          "rowIndex": 1,
+          "text": "Me parece interesante y creativa",
+          "type": "comparison",
+          "sentiment": {
+            "score": 1.302,
+            "comparative": 0.2604,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 2,
+          "text": "-",
+          "type": "comparison",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 3,
+          "text": "Este lenguaje es más completo y complejo",
+          "type": "comparison",
+          "sentiment": {
+            "score": -0.125,
+            "comparative": -0.017857142857142856,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "comparison-favorable(más completo)"
+        },
+        {
+          "rowIndex": 4,
+          "text": "No conozco otros",
+          "type": "comparison",
+          "sentiment": {
+            "score": 0.25,
+            "comparative": 0.08333333333333333,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 5,
+          "text": "Bastante bien",
+          "type": "comparison",
+          "sentiment": {
+            "score": 1.167,
+            "comparative": 0.5835,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 6,
+          "text": "Que son case iguales",
+          "type": "comparison",
+          "sentiment": {
+            "score": 0.25,
+            "comparative": 0.0625,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 7,
+          "text": "Difícil si lo comparamos con scrach pero fácil si es unity",
+          "type": "comparison",
+          "sentiment": {
+            "score": -1.667,
+            "comparative": -0.15154545454545454,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 8,
+          "text": "-",
+          "type": "comparison",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 9,
+          "text": "De forma escrita o interactiva",
+          "type": "comparison",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 10,
+          "text": "que se pone lasdos",
+          "type": "comparison",
+          "sentiment": {
+            "score": -0.375,
+            "comparative": -0.09375,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 11,
+          "text": "No conoce otro lenguaje",
+          "type": "comparison",
+          "sentiment": {
+            "score": 0.25,
+            "comparative": 0.0625,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 12,
+          "text": "Curioso y emocionante",
+          "type": "comparison",
+          "sentiment": {
+            "score": 0.20800000000000002,
+            "comparative": 0.06933333333333334,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 13,
+          "text": "-",
+          "type": "comparison",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 14,
+          "text": "Da bases de la programación más fácil de entender",
+          "type": "comparison",
+          "sentiment": {
+            "score": -0.125,
+            "comparative": -0.013888888888888888,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 5,
+          "reason": "comparison-favorable(más fácil,mas facil)"
+        },
+        {
+          "rowIndex": 15,
+          "text": "-",
+          "type": "comparison",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 16,
+          "text": "-",
+          "type": "comparison",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 17,
+          "text": "-",
+          "type": "comparison",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 18,
+          "text": "Tal vez es un poco más tardía",
+          "type": "comparison",
+          "sentiment": {
+            "score": -0.75,
+            "comparative": -0.10714285714285714,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 19,
+          "text": "No conoce más",
+          "type": "comparison",
+          "sentiment": {
+            "score": 0.25,
+            "comparative": 0.08333333333333333,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 20,
+          "text": "Es una buena experiencia, es algo nuevo y sencillo",
+          "type": "comparison",
+          "sentiment": {
+            "score": 0.583,
+            "comparative": 0.06477777777777777,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 21,
+          "text": "-",
+          "type": "comparison",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 22,
+          "text": "-",
+          "type": "comparison",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 23,
+          "text": "-",
+          "type": "comparison",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 24,
+          "text": "más rapido y facil",
+          "type": "comparison",
+          "sentiment": {
+            "score": 0.068,
+            "comparative": 0.017,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 25,
+          "text": "Innovador y retador",
+          "type": "comparison",
+          "sentiment": {
+            "score": 0.5,
+            "comparative": 0.16666666666666666,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 26,
+          "text": "-",
+          "type": "comparison",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 27,
+          "text": "Me pareció interesante",
+          "type": "comparison",
+          "sentiment": {
+            "score": 0.677,
+            "comparative": 0.22566666666666668,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 28,
+          "text": "Satisfactoria",
+          "type": "comparison",
+          "sentiment": {
+            "score": 0.375,
+            "comparative": 0.375,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 29,
+          "text": "con chat gpt",
+          "type": "comparison",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 30,
+          "text": "-",
+          "type": "comparison",
+          "empty": true,
+          "reason": "empty"
+        }
+      ],
+      "likertValues": [
+        4,
+        4,
+        3,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        5,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        3
+      ],
+      "engagementValues": []
+    },
+    "14-AC": {
+      "questionText": "¿Qué te pareció el aspecto visual y artistico de SCuLPT?",
+      "type": "positive",
+      "responses": [
+        {
+          "rowIndex": 1,
+          "text": "Muy chevere",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.7,
+            "comparative": 0.35,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 2,
+          "text": "-",
+          "type": "positive",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 3,
+          "text": "Muy entretenido",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.25,
+            "comparative": 0.125,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 4,
+          "text": "Muy bueno e interesante",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.833,
+            "comparative": 0.20825,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 5,
+          "text": "Decente",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.571,
+            "comparative": 0.571,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 6,
+          "text": "Perfecto",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.625,
+            "comparative": 0.625,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 5,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 7,
+          "text": "Increíble",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.458,
+            "comparative": 0.458,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 8,
+          "text": "-",
+          "type": "positive",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 9,
+          "text": "Muy bonito",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.75,
+            "comparative": 0.375,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 10,
+          "text": "meparecio super",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.375,
+            "comparative": 0.1875,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 11,
+          "text": "-",
+          "type": "positive",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 12,
+          "text": "Diferente",
+          "type": "positive",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 13,
+          "text": "Interesantes",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.333,
+            "comparative": 0.333,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 14,
+          "text": "Muy bueno",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.5,
+            "comparative": 0.25,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 15,
+          "text": "Como funcionan los componentes",
+          "type": "positive",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 16,
+          "text": "demasiado estetico",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.875,
+            "comparative": 0.4375,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 17,
+          "text": "Fueron chéveres ya que curioseamos mucho",
+          "type": "positive",
+          "sentiment": {
+            "score": -0.875,
+            "comparative": -0.14583333333333334,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 18,
+          "text": "El llevar la programación al mundo 3D ya en sí es una hazaña y la forma artística en cómo se hizo fue excepcional",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.564,
+            "comparative": 0.024521739130434782,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 19,
+          "text": "Muy bien",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.792,
+            "comparative": 0.396,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 20,
+          "text": "-",
+          "type": "positive",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 21,
+          "text": "-",
+          "type": "positive",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 22,
+          "text": "-",
+          "type": "positive",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 23,
+          "text": "Bonito",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.75,
+            "comparative": 0.75,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 5,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 24,
+          "text": "sencillo",
+          "type": "positive",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 25,
+          "text": "Excelente",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.75,
+            "comparative": 0.75,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 5,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 26,
+          "text": "-",
+          "type": "positive",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 27,
+          "text": "Muy genial",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.25,
+            "comparative": 0.125,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 28,
+          "text": "Bueno",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.5,
+            "comparative": 0.5,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 29,
+          "text": "muy creativo",
+          "type": "positive",
+          "sentiment": {
+            "score": 0.625,
+            "comparative": 0.3125,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 30,
+          "text": "-",
+          "type": "positive",
+          "empty": true,
+          "reason": "empty"
+        }
+      ],
+      "likertValues": [
+        4,
+        3,
+        4,
+        4,
+        5,
+        4,
+        4,
+        3,
+        3,
+        4,
+        4,
+        3,
+        4,
+        3,
+        3,
+        4,
+        5,
+        3,
+        5,
+        3,
+        4,
+        4
+      ],
+      "engagementValues": []
+    },
+    "15-AC": {
+      "questionText": "¿Te gustaría utilizar SCuLPT en tus clases o trabajo para aprender o enseñar conceptos de programación? ¿Por qué?",
+      "type": "recommendation",
+      "responses": [
+        {
+          "rowIndex": 1,
+          "text": "Para un nivel basico y niños pequeños diento que funcionaría bien, por su forma de manejo.",
+          "type": "recommendation",
+          "sentiment": {
+            "score": 0.5,
+            "comparative": 0.03125,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 2,
+          "text": "",
+          "type": "recommendation",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 3,
+          "text": "No lo necesito en mi vida laboral",
+          "type": "recommendation",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "likert": 1,
+          "reason": "negative-keyword(no ,no lo)"
+        },
+        {
+          "rowIndex": 4,
+          "text": "Posiblemente",
+          "type": "recommendation",
+          "sentiment": {
+            "score": 0.25,
+            "comparative": 0.25,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 5,
+          "text": "Sí me gustaría; es algo nuevo e interesante",
+          "type": "recommendation",
+          "sentiment": {
+            "score": 0.34900000000000003,
+            "comparative": 0.043625000000000004,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "affirmative-keyword(sí,si ,me gustaría)"
+        },
+        {
+          "rowIndex": 6,
+          "text": "Sí para dar el conocimiento previo a otros",
+          "type": "recommendation",
+          "sentiment": {
+            "score": -0.75,
+            "comparative": -0.09375,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "affirmative-keyword(sí,si )"
+        },
+        {
+          "rowIndex": 7,
+          "text": "Si porque es mi sueño",
+          "type": "recommendation",
+          "sentiment": {
+            "score": -0.5,
+            "comparative": -0.1,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "affirmative-keyword(sí,si )"
+        },
+        {
+          "rowIndex": 8,
+          "text": "-",
+          "type": "recommendation",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 9,
+          "text": "Sí porque podría estudiar sobre eso",
+          "type": "recommendation",
+          "sentiment": {
+            "score": -0.25,
+            "comparative": -0.041666666666666664,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "affirmative-keyword(sí,si )"
+        },
+        {
+          "rowIndex": 10,
+          "text": "calidad",
+          "type": "recommendation",
+          "sentiment": {
+            "score": 0.25,
+            "comparative": 0.25,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 11,
+          "text": "-",
+          "type": "recommendation",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 12,
+          "text": "Sí, es dinámico",
+          "type": "recommendation",
+          "sentiment": {
+            "score": -0.21400000000000002,
+            "comparative": -0.07133333333333335,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "affirmative-keyword(sí,si )"
+        },
+        {
+          "rowIndex": 13,
+          "text": "-",
+          "type": "recommendation",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 14,
+          "text": "Sí, es más fácil de entender",
+          "type": "recommendation",
+          "sentiment": {
+            "score": -0.375,
+            "comparative": -0.0625,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "affirmative-keyword(sí,si )"
+        },
+        {
+          "rowIndex": 15,
+          "text": "Me gustaría aprender ciberseguridad",
+          "type": "recommendation",
+          "sentiment": {
+            "score": 0.766,
+            "comparative": 0.1915,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "affirmative-keyword(me gustaría)"
+        },
+        {
+          "rowIndex": 16,
+          "text": "si, conceptos los cuales nos podrian ayudar",
+          "type": "recommendation",
+          "sentiment": {
+            "score": 0.025000000000000022,
+            "comparative": 0.003571428571428575,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "affirmative-keyword(sí,si )"
+        },
+        {
+          "rowIndex": 17,
+          "text": "Sí ya que debemos saber cómo programar",
+          "type": "recommendation",
+          "sentiment": {
+            "score": 0.063,
+            "comparative": 0.009,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "affirmative-keyword(sí,si )"
+        },
+        {
+          "rowIndex": 18,
+          "text": "Siento que hay mejores maneras pero como método para mejorar el método la lógica es increible",
+          "type": "recommendation",
+          "sentiment": {
+            "score": 1.737,
+            "comparative": 0.1085625,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "affirmative-keyword(sí,si )"
+        },
+        {
+          "rowIndex": 19,
+          "text": "Porque es muy útil",
+          "type": "recommendation",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 20,
+          "text": "-",
+          "type": "recommendation",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 21,
+          "text": "SI",
+          "type": "recommendation",
+          "sentiment": {
+            "score": -0.25,
+            "comparative": -0.25,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "affirmative-keyword(sí,si )"
+        },
+        {
+          "rowIndex": 22,
+          "text": "-",
+          "type": "recommendation",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 23,
+          "text": "Sí, es una buena forma de acercar a los niños a los algoritmos",
+          "type": "recommendation",
+          "sentiment": {
+            "score": 0.25,
+            "comparative": 0.019230769230769232,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "affirmative-keyword(sí,si )"
+        },
+        {
+          "rowIndex": 24,
+          "text": "si, porque es más facil de entender",
+          "type": "recommendation",
+          "sentiment": {
+            "score": -0.375,
+            "comparative": -0.05357142857142857,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "affirmative-keyword(sí,si )"
+        },
+        {
+          "rowIndex": 25,
+          "text": "Claro que sí",
+          "type": "recommendation",
+          "sentiment": {
+            "score": -0.875,
+            "comparative": -0.2916666666666667,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "affirmative-keyword(sí,si ,claro)"
+        },
+        {
+          "rowIndex": 26,
+          "text": "-",
+          "type": "recommendation",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 27,
+          "text": "Si sería una forma muy única de enseñar",
+          "type": "recommendation",
+          "sentiment": {
+            "score": -0.16699999999999998,
+            "comparative": -0.020874999999999998,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "affirmative-keyword(sí,si )"
+        },
+        {
+          "rowIndex": 28,
+          "text": "Sí, con modificaciones de uso más concretas",
+          "type": "recommendation",
+          "sentiment": {
+            "score": -0.25,
+            "comparative": -0.03571428571428571,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "affirmative-keyword(sí,si )"
+        },
+        {
+          "rowIndex": 29,
+          "text": "si, ya que es una pforma de pensary analizar",
+          "type": "recommendation",
+          "sentiment": {
+            "score": -0.625,
+            "comparative": -0.06944444444444445,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "affirmative-keyword(sí,si )"
+        },
+        {
+          "rowIndex": 30,
+          "text": "-",
+          "type": "recommendation",
+          "empty": true,
+          "reason": "empty"
+        }
+      ],
+      "likertValues": [
+        3,
+        1,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "engagementValues": []
+    },
+    "18-SyM": {
+      "questionText": "¿Qué cambios o mejoras sugerirías para SCuLPT?",
+      "type": "suggestion",
+      "responses": [
+        {
+          "rowIndex": 1,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 2,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 3,
+          "text": "Siento que debería ser más tiempo",
+          "type": "suggestion",
+          "sentiment": {
+            "score": -0.062,
+            "comparative": -0.010333333333333333,
+            "vote": "negative"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 33,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 4,
+          "text": "Me gustaría que fuera más dinámico",
+          "type": "suggestion",
+          "sentiment": {
+            "score": -0.07300000000000001,
+            "comparative": -0.012166666666666668,
+            "vote": "negative"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 34,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 5,
+          "text": "Más comodidad",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0.25,
+            "comparative": 0.125,
+            "vote": "positive"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 13,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 6,
+          "text": "Ninguna",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 7,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 7,
+          "text": "Un aspecto más entretenido",
+          "type": "suggestion",
+          "sentiment": {
+            "score": -0.125,
+            "comparative": -0.03125,
+            "vote": "negative"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 26,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 8,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 9,
+          "text": "Ninguno",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 7,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 10,
+          "text": "aprender más",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0.5,
+            "comparative": 0.25,
+            "vote": "positive"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 12,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 11,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 12,
+          "text": "Dinamismo",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0.286,
+            "comparative": 0.286,
+            "vote": "positive"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 9,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 13,
+          "text": "Ninguna",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 7,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 14,
+          "text": "Ninguno",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 7,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 15,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 16,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 17,
+          "text": "La verdad ningún cambio, fue algo muy bueno",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0.833,
+            "comparative": 0.104125,
+            "vote": "positive"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 43,
+            "items": 2
+          }
+        },
+        {
+          "rowIndex": 18,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 19,
+          "text": "No se",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 5,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 20,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 21,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 22,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 23,
+          "text": "Ninguna",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 7,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 24,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 25,
+          "text": "Todo muy bien",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 1.042,
+            "comparative": 0.3473333333333333,
+            "vote": "positive"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 13,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 26,
+          "text": "Me gustó, me pareció súper chévere",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 1.685,
+            "comparative": 0.2808333333333333,
+            "vote": "positive"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 34,
+            "items": 2
+          }
+        },
+        {
+          "rowIndex": 27,
+          "text": "Todo me parece genial",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0.844,
+            "comparative": 0.211,
+            "vote": "positive"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 21,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 28,
+          "text": "Asignar roles más específicos",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0.792,
+            "comparative": 0.198,
+            "vote": "positive"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 29,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 29,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 30,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        }
+      ],
+      "likertValues": [],
+      "engagementValues": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    "19-SyM": {
+      "questionText": "¿Qué otros problemas o ejercicios te gustaría resolver utilizando SCuLPT?",
+      "type": "suggestion",
+      "responses": [
+        {
+          "rowIndex": 1,
+          "text": "Unos con mas manejo con operaciones básicas",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0.333,
+            "comparative": 0.04757142857142858,
+            "vote": "positive"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 43,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 2,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 3,
+          "text": "Más para seguir aprendiendo",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0.25,
+            "comparative": 0.0625,
+            "vote": "positive"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 27,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 4,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 5,
+          "text": "Más bucles",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 10,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 6,
+          "text": "Otros que sean diferentes",
+          "type": "suggestion",
+          "sentiment": {
+            "score": -0.625,
+            "comparative": -0.15625,
+            "vote": "negative"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 25,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 7,
+          "text": "Programación de videojuegos",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 27,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 8,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 9,
+          "text": "Problemas matemáticos",
+          "type": "suggestion",
+          "sentiment": {
+            "score": -0.062,
+            "comparative": -0.031,
+            "vote": "negative"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 21,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 10,
+          "text": "programación",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 12,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 11,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 12,
+          "text": "3D",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 2,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 13,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 14,
+          "text": "No lo sé, me gustaría uno de estructura de datos",
+          "type": "suggestion",
+          "sentiment": {
+            "score": -0.516,
+            "comparative": -0.0516,
+            "vote": "negative"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 48,
+            "items": 2
+          }
+        },
+        {
+          "rowIndex": 15,
+          "text": "Retos de componentes",
+          "type": "suggestion",
+          "sentiment": {
+            "score": -0.375,
+            "comparative": -0.125,
+            "vote": "negative"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 20,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 16,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 17,
+          "text": "Ninguno o tal vez el que me pongan :)",
+          "type": "suggestion",
+          "sentiment": {
+            "score": -0.125,
+            "comparative": -0.015625,
+            "vote": "negative"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 37,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 18,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 19,
+          "text": "No se",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 5,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 20,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 21,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 22,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 23,
+          "text": "Matemáticas, quizás operaciones",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0.375,
+            "comparative": 0.125,
+            "vote": "positive"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 31,
+            "items": 2
+          }
+        },
+        {
+          "rowIndex": 24,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 25,
+          "text": "Entender más a fondo",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0.375,
+            "comparative": 0.09375,
+            "vote": "positive"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 20,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 26,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 27,
+          "text": "Combinaciones",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 13,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 28,
+          "text": "Del medio ambiente, de reducción de conflictos emocionales",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0.25,
+            "comparative": 0.03125,
+            "vote": "positive"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 58,
+            "items": 2
+          }
+        },
+        {
+          "rowIndex": 29,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 30,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        }
+      ],
+      "likertValues": [],
+      "engagementValues": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ]
+    },
+    "21-PEpE": {
+      "questionText": "¿Consideras que SCuLPT podría ser una herramienta util en el aula?",
+      "type": "recommendation",
+      "responses": [
+        {
+          "rowIndex": 1,
+          "text": "-",
+          "type": "recommendation",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 2,
+          "text": "-",
+          "type": "recommendation",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 3,
+          "text": "-",
+          "type": "recommendation",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 4,
+          "text": "Si porque podríamos aprender cosas fuera de la rutina",
+          "type": "recommendation",
+          "sentiment": {
+            "score": -0.125,
+            "comparative": -0.013888888888888888,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "affirmative-keyword(sí,si ,podría)"
+        },
+        {
+          "rowIndex": 5,
+          "text": "Si solucionara problemas",
+          "type": "recommendation",
+          "sentiment": {
+            "score": -0.312,
+            "comparative": -0.104,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "affirmative-keyword(sí,si )"
+        },
+        {
+          "rowIndex": 6,
+          "text": "Sí para conocer en programación",
+          "type": "recommendation",
+          "sentiment": {
+            "score": -0.75,
+            "comparative": -0.15,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "affirmative-keyword(sí,si )"
+        },
+        {
+          "rowIndex": 7,
+          "text": "-",
+          "type": "recommendation",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 8,
+          "text": "-",
+          "type": "recommendation",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 9,
+          "text": "-",
+          "type": "recommendation",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 10,
+          "text": "Sí porque nos ayuda mucho",
+          "type": "recommendation",
+          "sentiment": {
+            "score": 0.025000000000000022,
+            "comparative": 0.0050000000000000044,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "affirmative-keyword(sí,si )"
+        },
+        {
+          "rowIndex": 11,
+          "text": "-",
+          "type": "recommendation",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 12,
+          "text": "-",
+          "type": "recommendation",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 13,
+          "text": "-",
+          "type": "recommendation",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 14,
+          "text": "Sí, porque tiene métodos diferentes",
+          "type": "recommendation",
+          "sentiment": {
+            "score": 0.125,
+            "comparative": 0.025,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "affirmative-keyword(sí,si )"
+        },
+        {
+          "rowIndex": 15,
+          "text": "-",
+          "type": "recommendation",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 16,
+          "text": "-",
+          "type": "recommendation",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 17,
+          "text": "-",
+          "type": "recommendation",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 18,
+          "text": "-",
+          "type": "recommendation",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 19,
+          "text": "Me ayudó con experiencia para el futuro",
+          "type": "recommendation",
+          "sentiment": {
+            "score": 0.3580000000000001,
+            "comparative": 0.05114285714285716,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 20,
+          "text": "-",
+          "type": "recommendation",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 21,
+          "text": "Para en un futuro tener ese conocimiento",
+          "type": "recommendation",
+          "sentiment": {
+            "score": -0.875,
+            "comparative": -0.125,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment"
+        },
+        {
+          "rowIndex": 22,
+          "text": "-",
+          "type": "recommendation",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 23,
+          "text": "Sí, es lúdica, y esto permite un contacto con las nociones",
+          "type": "recommendation",
+          "sentiment": {
+            "score": -1.25,
+            "comparative": -0.11363636363636363,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "affirmative-keyword(sí,si )"
+        },
+        {
+          "rowIndex": 24,
+          "text": "-",
+          "type": "recommendation",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 25,
+          "text": "Sí, abrir el conocimiento",
+          "type": "recommendation",
+          "sentiment": {
+            "score": -0.75,
+            "comparative": -0.1875,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "affirmative-keyword(sí,si )"
+        },
+        {
+          "rowIndex": 26,
+          "text": "Armar los prototipos siguiendo las operaciones",
+          "type": "recommendation",
+          "sentiment": {
+            "score": 0.25,
+            "comparative": 0.041666666666666664,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "affirmative-keyword(sí,si )"
+        },
+        {
+          "rowIndex": 27,
+          "text": "-",
+          "type": "recommendation",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 28,
+          "text": "Sí, es muy atractivo",
+          "type": "recommendation",
+          "sentiment": {
+            "score": 0.125,
+            "comparative": 0.03125,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 4,
+          "reason": "affirmative-keyword(sí,si )"
+        },
+        {
+          "rowIndex": 29,
+          "text": "-",
+          "type": "recommendation",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 30,
+          "text": "-",
+          "type": "recommendation",
+          "empty": true,
+          "reason": "empty"
+        }
+      ],
+      "likertValues": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4
+      ],
+      "engagementValues": []
+    },
+    "22-PEpE": {
+      "questionText": "¿Que desafios prevés al implementar SCuLPT en el entorno educativo?",
+      "type": "negative",
+      "responses": [
+        {
+          "rowIndex": 1,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 2,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 3,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 4,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 5,
+          "text": "Te ayuda a pensar mejor",
+          "type": "negative",
+          "sentiment": {
+            "score": 0.806,
+            "comparative": 0.1612,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment-inverted"
+        },
+        {
+          "rowIndex": 6,
+          "text": "Una concentración",
+          "type": "negative",
+          "sentiment": {
+            "score": 0.25,
+            "comparative": 0.125,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment-inverted"
+        },
+        {
+          "rowIndex": 7,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 8,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 9,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 10,
+          "text": "Bastante",
+          "type": "negative",
+          "sentiment": {
+            "score": 0.375,
+            "comparative": 0.375,
+            "vote": "positive"
+          },
+          "empty": false,
+          "likert": 2,
+          "reason": "sentiment-inverted"
+        },
+        {
+          "rowIndex": 11,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 12,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 13,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 14,
+          "text": "Con más ejercicios",
+          "type": "negative",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment-inverted"
+        },
+        {
+          "rowIndex": 15,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 16,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 17,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 18,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 19,
+          "text": "Puede aplicar afuera de la rutina",
+          "type": "negative",
+          "sentiment": {
+            "score": -0.125,
+            "comparative": -0.020833333333333332,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment-inverted"
+        },
+        {
+          "rowIndex": 20,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 21,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 22,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 23,
+          "text": "Tiempo",
+          "type": "negative",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "likert": 2,
+          "reason": "unfavorable-keyword(tiempo)"
+        },
+        {
+          "rowIndex": 24,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 25,
+          "text": "Comprender otro ámbito",
+          "type": "negative",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment-inverted"
+        },
+        {
+          "rowIndex": 26,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 27,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 28,
+          "text": "Que puede que se confundan, si las fichas no tienen roles",
+          "type": "negative",
+          "sentiment": {
+            "score": -1.25,
+            "comparative": -0.11363636363636363,
+            "vote": "negative"
+          },
+          "empty": false,
+          "likert": 3,
+          "reason": "sentiment-inverted"
+        },
+        {
+          "rowIndex": 29,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 30,
+          "text": "-",
+          "type": "negative",
+          "empty": true,
+          "reason": "empty"
+        }
+      ],
+      "likertValues": [
+        3,
+        3,
+        2,
+        3,
+        3,
+        2,
+        3,
+        3
+      ],
+      "engagementValues": []
+    },
+    "23-PEpE": {
+      "questionText": "¿Que tipo de acompañamiento o recursos adicionales sería necesarios para implementar SCuLPT efectivamente en el aula?",
+      "type": "suggestion",
+      "responses": [
+        {
+          "rowIndex": 1,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 2,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 3,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 4,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 5,
+          "text": "Las figuras de plástico",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 1,
+            "comparative": 0.25,
+            "vote": "positive"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 23,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 6,
+          "text": "Ninguna",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 7,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 7,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 8,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 9,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 10,
+          "text": "aprender",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0.5,
+            "comparative": 0.5,
+            "vote": "positive"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 8,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 11,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 12,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 13,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 14,
+          "text": "Otro docente",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0,
+            "comparative": 0,
+            "vote": "neutral"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 12,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 15,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 16,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 17,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 18,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 19,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 20,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 21,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 22,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 23,
+          "text": "Reglas, tarjetas, o ejemplos ya construidos",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0.833,
+            "comparative": 0.13883333333333334,
+            "vote": "positive"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 43,
+            "items": 3
+          }
+        },
+        {
+          "rowIndex": 24,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 25,
+          "text": "Súper bien el material",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 1.167,
+            "comparative": 0.29175,
+            "vote": "positive"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 22,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 26,
+          "text": "Unas diapositivas más didácticas",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0.25,
+            "comparative": 0.0625,
+            "vote": "positive"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 32,
+            "items": 1
+          }
+        },
+        {
+          "rowIndex": 27,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 28,
+          "text": "Tarjetas, guías, un video, imágenes pictográficas a las fichas, y de diferentes colores",
+          "type": "suggestion",
+          "sentiment": {
+            "score": 0.125,
+            "comparative": 0.009615384615384616,
+            "vote": "positive"
+          },
+          "empty": false,
+          "engagement": {
+            "chars": 87,
+            "items": 5
+          }
+        },
+        {
+          "rowIndex": 29,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        },
+        {
+          "rowIndex": 30,
+          "text": "-",
+          "type": "suggestion",
+          "empty": true,
+          "reason": "empty"
+        }
+      ],
+      "likertValues": [],
+      "engagementValues": [
+        1,
+        1,
+        1,
+        1,
+        3,
+        1,
+        1,
+        5
+      ]
+    }
+  },
+  "perRow": [
+    {
+      "rowIndex": 1,
+      "quant": {
+        "P4-AC": 4,
+        "P5-AC": 4,
+        "P6-AC": 4,
+        "P7-AC": 3,
+        "P8-AC": 4,
+        "P20-SyM": 5
+      },
+      "textLikerts": {
+        "10-AC": 3,
+        "11-AC": 3,
+        "12-AC": 4,
+        "14-AC": 4,
+        "15-AC": 3
+      },
+      "pre": [
+        3,
+        4,
+        2,
+        1,
+        3
+      ],
+      "post": [
+        4,
+        4,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "rowIndex": 2,
+      "quant": {
+        "P4-AC": 3,
+        "P5-AC": 4,
+        "P6-AC": 4,
+        "P7-AC": 4,
+        "P8-AC": 4,
+        "P20-SyM": null
+      },
+      "textLikerts": {},
+      "pre": [
+        4,
+        3,
+        4,
+        3,
+        4
+      ],
+      "post": [
+        4,
+        4,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "rowIndex": 3,
+      "quant": {
+        "P4-AC": 4,
+        "P5-AC": 3,
+        "P6-AC": 3,
+        "P7-AC": 4,
+        "P8-AC": 5,
+        "P20-SyM": 4
+      },
+      "textLikerts": {
+        "10-AC": 3,
+        "11-AC": 3,
+        "12-AC": 4,
+        "14-AC": 3,
+        "15-AC": 1
+      },
+      "pre": [
+        4,
+        4,
+        4,
+        4,
+        5
+      ],
+      "post": [
+        4,
+        3,
+        4,
+        3,
+        5
+      ]
+    },
+    {
+      "rowIndex": 4,
+      "quant": {
+        "P4-AC": 3,
+        "P5-AC": 3,
+        "P6-AC": 2,
+        "P7-AC": 4,
+        "P8-AC": 4,
+        "P20-SyM": 5
+      },
+      "textLikerts": {
+        "10-AC": 3,
+        "11-AC": 1,
+        "12-AC": 3,
+        "14-AC": 4,
+        "15-AC": 4,
+        "21-PEpE": 4
+      },
+      "pre": [
+        null,
+        null,
+        3,
+        3,
+        3
+      ],
+      "post": [
+        3,
+        null,
+        null,
+        null,
+        3
+      ]
+    },
+    {
+      "rowIndex": 5,
+      "quant": {
+        "P4-AC": 4,
+        "P5-AC": 5,
+        "P6-AC": 4,
+        "P7-AC": 3,
+        "P8-AC": 5,
+        "P20-SyM": 4
+      },
+      "textLikerts": {
+        "10-AC": 3,
+        "11-AC": 3,
+        "12-AC": 4,
+        "14-AC": 4,
+        "15-AC": 4,
+        "21-PEpE": 4,
+        "22-PEpE": 3
+      },
+      "pre": [
+        null,
+        null,
+        null,
+        3,
+        null
+      ],
+      "post": [
+        null,
+        null,
+        null,
+        null,
+        3
+      ]
+    },
+    {
+      "rowIndex": 6,
+      "quant": {
+        "P4-AC": 3,
+        "P5-AC": 3,
+        "P6-AC": 2,
+        "P7-AC": 5,
+        "P8-AC": 5,
+        "P20-SyM": 5
+      },
+      "textLikerts": {
+        "10-AC": 3,
+        "11-AC": 2,
+        "12-AC": 3,
+        "14-AC": 5,
+        "15-AC": 4,
+        "21-PEpE": 4,
+        "22-PEpE": 3
+      },
+      "pre": [
+        null,
+        null,
+        null,
+        3,
+        null
+      ],
+      "post": [
+        null,
+        null,
+        null,
+        null,
+        3
+      ]
+    },
+    {
+      "rowIndex": 7,
+      "quant": {
+        "P4-AC": 3,
+        "P5-AC": 4,
+        "P6-AC": 2,
+        "P7-AC": 5,
+        "P8-AC": 4,
+        "P20-SyM": 4
+      },
+      "textLikerts": {
+        "10-AC": 3,
+        "11-AC": 3,
+        "12-AC": 3,
+        "14-AC": 4,
+        "15-AC": 4
+      },
+      "pre": [
+        4,
+        3,
+        4,
+        5,
+        2
+      ],
+      "post": [
+        4,
+        4,
+        4,
+        5,
+        4
+      ]
+    },
+    {
+      "rowIndex": 8,
+      "quant": {
+        "P4-AC": 4,
+        "P5-AC": 4,
+        "P6-AC": 4,
+        "P7-AC": 4,
+        "P8-AC": 4,
+        "P20-SyM": null
+      },
+      "textLikerts": {},
+      "pre": [
+        3,
+        null,
+        null,
+        null,
+        null
+      ],
+      "post": [
+        null,
+        3,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "rowIndex": 9,
+      "quant": {
+        "P4-AC": 5,
+        "P5-AC": 3,
+        "P6-AC": 1,
+        "P7-AC": 5,
+        "P8-AC": 5,
+        "P20-SyM": 5
+      },
+      "textLikerts": {
+        "10-AC": 3,
+        "11-AC": 3,
+        "12-AC": 3,
+        "14-AC": 4,
+        "15-AC": 4
+      },
+      "pre": [
+        null,
+        null,
+        null,
+        3,
+        null
+      ],
+      "post": [
+        null,
+        null,
+        null,
+        null,
+        3
+      ]
+    },
+    {
+      "rowIndex": 10,
+      "quant": {
+        "P4-AC": 4,
+        "P5-AC": 2,
+        "P6-AC": 3,
+        "P7-AC": 5,
+        "P8-AC": 4,
+        "P20-SyM": 4
+      },
+      "textLikerts": {
+        "10-AC": 3,
+        "11-AC": 3,
+        "12-AC": 3,
+        "14-AC": 3,
+        "15-AC": 4,
+        "21-PEpE": 4,
+        "22-PEpE": 2
+      },
+      "pre": [
+        3,
+        3,
+        null,
+        null,
+        null
+      ],
+      "post": [
+        null,
+        3,
+        3,
+        null,
+        null
+      ]
+    },
+    {
+      "rowIndex": 11,
+      "quant": {
+        "P4-AC": 2,
+        "P5-AC": 5,
+        "P6-AC": 3,
+        "P7-AC": 3,
+        "P8-AC": 3,
+        "P20-SyM": null
+      },
+      "textLikerts": {
+        "10-AC": 3,
+        "11-AC": 3,
+        "12-AC": 3
+      },
+      "pre": [
+        null,
+        null,
+        null,
+        null,
+        3
+      ],
+      "post": [
+        null,
+        3,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "rowIndex": 12,
+      "quant": {
+        "P4-AC": 3,
+        "P5-AC": 2,
+        "P6-AC": 3,
+        "P7-AC": 4,
+        "P8-AC": 5,
+        "P20-SyM": 4
+      },
+      "textLikerts": {
+        "10-AC": 3,
+        "11-AC": 3,
+        "12-AC": 3,
+        "14-AC": 3,
+        "15-AC": 4
+      },
+      "pre": [
+        2,
+        3,
+        2,
+        2,
+        3
+      ],
+      "post": [
+        2,
+        3,
+        4,
+        2,
+        2
+      ]
+    },
+    {
+      "rowIndex": 13,
+      "quant": {
+        "P4-AC": 4,
+        "P5-AC": 4,
+        "P6-AC": 4,
+        "P7-AC": 5,
+        "P8-AC": 4,
+        "P20-SyM": 5
+      },
+      "textLikerts": {
+        "10-AC": 3,
+        "11-AC": 3,
+        "14-AC": 4
+      },
+      "pre": [
+        1,
+        2,
+        2,
+        2,
+        4
+      ],
+      "post": [
+        4,
+        4,
+        4,
+        4,
+        5
+      ]
+    },
+    {
+      "rowIndex": 14,
+      "quant": {
+        "P4-AC": 3,
+        "P5-AC": 4,
+        "P6-AC": 3,
+        "P7-AC": 4,
+        "P8-AC": 4,
+        "P20-SyM": 5
+      },
+      "textLikerts": {
+        "10-AC": 3,
+        "11-AC": 3,
+        "12-AC": 5,
+        "14-AC": 4,
+        "15-AC": 4,
+        "21-PEpE": 4,
+        "22-PEpE": 3
+      },
+      "pre": [
+        3,
+        4,
+        3,
+        4,
+        4
+      ],
+      "post": [
+        3,
+        4,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "rowIndex": 15,
+      "quant": {
+        "P4-AC": 3,
+        "P5-AC": 4,
+        "P6-AC": 2,
+        "P7-AC": 5,
+        "P8-AC": 5,
+        "P20-SyM": 5
+      },
+      "textLikerts": {
+        "10-AC": 3,
+        "11-AC": 1,
+        "14-AC": 3,
+        "15-AC": 4
+      },
+      "pre": [
+        null,
+        null,
+        null,
+        3,
+        null
+      ],
+      "post": [
+        null,
+        null,
+        null,
+        null,
+        3
+      ]
+    },
+    {
+      "rowIndex": 16,
+      "quant": {
+        "P4-AC": 4,
+        "P5-AC": 3,
+        "P6-AC": 3,
+        "P7-AC": 4,
+        "P8-AC": 5,
+        "P20-SyM": null
+      },
+      "textLikerts": {
+        "10-AC": 3,
+        "11-AC": 3,
+        "14-AC": 4,
+        "15-AC": 4
+      },
+      "pre": [
+        5,
+        null,
+        null,
+        null,
+        null
+      ],
+      "post": [
+        null
+      ]
+    },
+    {
+      "rowIndex": 17,
+      "quant": {
+        "P4-AC": 4,
+        "P5-AC": 4,
+        "P6-AC": 4,
+        "P7-AC": 5,
+        "P8-AC": 4,
+        "P20-SyM": 5
+      },
+      "textLikerts": {
+        "10-AC": 3,
+        "11-AC": 2,
+        "14-AC": 3,
+        "15-AC": 4
+      },
+      "pre": [
+        1,
+        1,
+        2,
+        1,
+        4
+      ],
+      "post": [
+        4,
+        3,
+        4,
+        4,
+        5
+      ]
+    },
+    {
+      "rowIndex": 18,
+      "quant": {
+        "P4-AC": 3,
+        "P5-AC": 4,
+        "P6-AC": 3,
+        "P7-AC": 5,
+        "P8-AC": 5,
+        "P20-SyM": null
+      },
+      "textLikerts": {
+        "10-AC": 3,
+        "11-AC": 3,
+        "12-AC": 3,
+        "14-AC": 3,
+        "15-AC": 4
+      },
+      "pre": [
+        4,
+        3,
+        2,
+        3,
+        4
+      ],
+      "post": [
+        4,
+        4,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "rowIndex": 19,
+      "quant": {
+        "P4-AC": 4,
+        "P5-AC": 1,
+        "P6-AC": 3,
+        "P7-AC": 4,
+        "P8-AC": 2,
+        "P20-SyM": 5
+      },
+      "textLikerts": {
+        "10-AC": 3,
+        "11-AC": 3,
+        "12-AC": 3,
+        "14-AC": 4,
+        "15-AC": 3,
+        "21-PEpE": 3,
+        "22-PEpE": 3
+      },
+      "pre": [
+        3,
+        null,
+        null,
+        null,
+        null
+      ],
+      "post": [
+        3,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "rowIndex": 20,
+      "quant": {
+        "P4-AC": 4,
+        "P5-AC": 5,
+        "P6-AC": 4,
+        "P7-AC": 4,
+        "P8-AC": 4,
+        "P20-SyM": null
+      },
+      "textLikerts": {
+        "10-AC": 3,
+        "11-AC": 3,
+        "12-AC": 3
+      },
+      "pre": [
+        3,
+        4,
+        3,
+        3,
+        4
+      ],
+      "post": [
+        4,
+        4,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "rowIndex": 21,
+      "quant": {
+        "P4-AC": 3,
+        "P5-AC": 3,
+        "P6-AC": 2,
+        "P7-AC": 4,
+        "P8-AC": 5,
+        "P20-SyM": null
+      },
+      "textLikerts": {
+        "15-AC": 4,
+        "21-PEpE": 3
+      },
+      "pre": [
+        3,
+        null,
+        null,
+        null,
+        null
+      ],
+      "post": [
+        null
+      ]
+    },
+    {
+      "rowIndex": 22,
+      "quant": {
+        "P4-AC": 3,
+        "P5-AC": 3,
+        "P6-AC": null,
+        "P7-AC": null,
+        "P8-AC": null,
+        "P20-SyM": null
+      },
+      "textLikerts": {},
+      "pre": [
+        null
+      ],
+      "post": [
+        null
+      ]
+    },
+    {
+      "rowIndex": 23,
+      "quant": {
+        "P4-AC": 4,
+        "P5-AC": 5,
+        "P6-AC": 4,
+        "P7-AC": 5,
+        "P8-AC": 5,
+        "P20-SyM": 4
+      },
+      "textLikerts": {
+        "14-AC": 5,
+        "15-AC": 4,
+        "21-PEpE": 4,
+        "22-PEpE": 2
+      },
+      "pre": [
+        4,
+        5,
+        4,
+        4,
+        5
+      ],
+      "post": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "rowIndex": 24,
+      "quant": {
+        "P4-AC": 4,
+        "P5-AC": 5,
+        "P6-AC": 3,
+        "P7-AC": 4,
+        "P8-AC": 5,
+        "P20-SyM": null
+      },
+      "textLikerts": {
+        "10-AC": 3,
+        "11-AC": 3,
+        "12-AC": 3,
+        "14-AC": 3,
+        "15-AC": 4
+      },
+      "pre": [
+        null,
+        null,
+        null,
+        2,
+        null
+      ],
+      "post": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "rowIndex": 25,
+      "quant": {
+        "P4-AC": 5,
+        "P5-AC": 5,
+        "P6-AC": 3,
+        "P7-AC": 5,
+        "P8-AC": 5,
+        "P20-SyM": 5
+      },
+      "textLikerts": {
+        "10-AC": 3,
+        "11-AC": 3,
+        "12-AC": 3,
+        "14-AC": 5,
+        "15-AC": 4,
+        "21-PEpE": 4,
+        "22-PEpE": 3
+      },
+      "pre": [
+        null,
+        3,
+        null,
+        null,
+        null
+      ],
+      "post": [
+        null,
+        null,
+        3,
+        null,
+        null
+      ]
+    },
+    {
+      "rowIndex": 26,
+      "quant": {
+        "P4-AC": 5,
+        "P5-AC": 4,
+        "P6-AC": 4,
+        "P7-AC": 4,
+        "P8-AC": 5,
+        "P20-SyM": null
+      },
+      "textLikerts": {
+        "21-PEpE": 4
+      },
+      "pre": [
+        null,
+        3,
+        null,
+        null,
+        null
+      ],
+      "post": [
+        null,
+        null,
+        null,
+        null,
+        3
+      ]
+    },
+    {
+      "rowIndex": 27,
+      "quant": {
+        "P4-AC": 4,
+        "P5-AC": 5,
+        "P6-AC": 4,
+        "P7-AC": 5,
+        "P8-AC": 5,
+        "P20-SyM": 5
+      },
+      "textLikerts": {
+        "10-AC": 3,
+        "12-AC": 4,
+        "14-AC": 3,
+        "15-AC": 4
+      },
+      "pre": [
+        4,
+        5,
+        5,
+        5,
+        5
+      ],
+      "post": [
+        4,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "rowIndex": 28,
+      "quant": {
+        "P4-AC": 2,
+        "P5-AC": 3,
+        "P6-AC": 2,
+        "P7-AC": 4,
+        "P8-AC": 4,
+        "P20-SyM": 5
+      },
+      "textLikerts": {
+        "10-AC": 3,
+        "11-AC": 3,
+        "12-AC": 4,
+        "14-AC": 4,
+        "15-AC": 4,
+        "21-PEpE": 4,
+        "22-PEpE": 3
+      },
+      "pre": [
+        2,
+        2,
+        3,
+        2,
+        2
+      ],
+      "post": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "rowIndex": 29,
+      "quant": {
+        "P4-AC": 3,
+        "P5-AC": 3,
+        "P6-AC": 2,
+        "P7-AC": 5,
+        "P8-AC": 4,
+        "P20-SyM": null
+      },
+      "textLikerts": {
+        "10-AC": 3,
+        "11-AC": 1,
+        "12-AC": 3,
+        "14-AC": 4,
+        "15-AC": 4
+      },
+      "pre": [
+        3,
+        null,
+        null,
+        null,
+        null
+      ],
+      "post": [
+        null
+      ]
+    },
+    {
+      "rowIndex": 30,
+      "quant": {
+        "P4-AC": 2,
+        "P5-AC": 3,
+        "P6-AC": 3,
+        "P7-AC": 4,
+        "P8-AC": 4,
+        "P20-SyM": null
+      },
+      "textLikerts": {},
+      "pre": [
+        3,
+        3,
+        3,
+        3,
+        null
+      ],
+      "post": [
+        3,
+        3,
+        null,
+        3,
+        null
+      ]
+    }
+  ]
+}

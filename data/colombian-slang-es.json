@@ -1,0 +1,23 @@
+{
+  "_doc": "Colombian Spanish slang scores in the same scale as NLP.js senticon ([-1, 1]). Entries are raw words; the loader stems them at runtime with @nlpjs/lang-es and merges them into the senticon dictionary, overriding the standard-Spanish score when the slang sense differs (e.g. 'brutal' means 'amazing' in Colombian use, not 'savage'). Words whose Spanish stem collides with an unrelated common term (e.g. 'mamera' → stem 'mam' overlaps 'mamá') are deliberately omitted.",
+  "words": {
+    "chevere":   0.7,
+    "chévere":   0.7,
+    "bacano":    0.7,
+    "bacana":    0.7,
+    "vacano":    0.7,
+    "vacana":    0.7,
+    "joya":      0.6,
+    "berraco":   0.5,
+    "berraca":   0.5,
+    "brutal":    0.6,
+    "parchado":  0.5,
+    "teso":      0.5,
+    "jartera":  -0.7,
+    "jarto":    -0.6,
+    "aburridor":-0.7,
+    "maluco":   -0.7,
+    "chimbo":   -0.6,
+    "tenaz":    -0.4
+  }
+}

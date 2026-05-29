@@ -1,0 +1,17 @@
+{
+  "name": "sculpt-survey-validation",
+  "version": "1.0.0",
+  "description": "Sentiment analysis over open-ended survey responses for SCuLPT validation. Maps NLP.js sentiment scores onto a 1-5 Likert scale.",
+  "private": true,
+  "type": "commonjs",
+  "main": "sentiment-likert.js",
+  "scripts": {
+    "start": "node sentiment-likert.js"
+  },
+  "dependencies": {
+    "@nlpjs/basic": "^4.27.0",
+    "@nlpjs/lang-es": "^4.26.1",
+    "@nlpjs/sentiment": "^4.26.1",
+    "xlsx": "^0.18.5"
+  }
+}

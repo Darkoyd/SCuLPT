@@ -15,6 +15,7 @@ SCuLPT is a tangible, stack-based programming language designed to make computat
   - [Arithmetic Operations](#arithmetic-operations)
 - [3D Files](#3d-files)
 - [SCuLPTER — Online Runtime](#sculpter--online-runtime)
+- [Validation Data](#validation-data)
 - [Related Repositories](#related-repositories)
 
 ---
@@ -124,6 +125,69 @@ npm install
 # 4. Start the local dev server
 npm run dev
 ```
+
+---
+
+## Validation Data
+
+The [`/data`](./data) directory holds the raw validation survey results for SCuLPT and a small, *question-aware* Node.js script that turns the open-ended (free-text) responses into a Likert-style **favorability** signal using [NLP.js](https://github.com/axa-group/nlp.js).
+
+| File | Description |
+|------|-------------|
+| `Resultados SCuLPT.xlsx` | Raw survey results. Sheet `Resultados` holds the respondent answers; sheet `Preguntas de Encuesta` holds the question text per ID. |
+| `questions-config.json` | Per-question metadata: type (`positive` / `negative` / `recommendation` / `comparison` / `suggestion`) and keyword lists used by the scoring rules. Edit this to tune the analysis. |
+| `colombian-slang-es.json` | Colombian Spanish slang scores (`[-1, 1]`) that are stemmed at load time and merged into NLP.js's senticon dictionary. Covers regionalisms like *chévere*, *bacano*, *jartera*, *maluco*, *brutal* (whose Colombian sense differs from standard Spanish). Edit to add or tune entries. |
+| `sentiment-likert.js` | Reads both sheets, runs Spanish sentiment analysis, applies the per-question rule, and emits a final favorability Likert (1–5) plus an engagement metric for suggestion-type questions. |
+| `sentiment-results.json` | Output of the script: question text, per-cell breakdown (raw sentiment, applied rule, final score) and summary tables. |
+| `package.json` | Declares the `@nlpjs/sentiment`, `@nlpjs/lang-es`, `@nlpjs/basic`, and `xlsx` dependencies. |
+
+Why question-aware? Survey questions don't share the same valence toward SCuLPT — a negative-sounding answer to *"what was most difficult?"* (P11) is bad for SCuLPT, while the same wording answering *"what did you like?"* (P14) is good. A raw sentiment score collapses both into the same number. The script therefore picks a scoring rule per question type so that the final Likert always means *favorability toward SCuLPT*, comparable across questions.
+
+**Base sentiment → Likert mapping** (used as-is for `positive`, inverted for `negative`, and as fallback elsewhere):
+
+| Comparative range | Likert | Meaning |
+|---|---|---|
+| `≤ -0.6` | 1 | Muy negativo |
+| `(-0.6, -0.2]` | 2 | Negativo |
+| `(-0.2, 0.2)` (or empty / `-`) | 3 | Neutral / sin dato |
+| `[0.2, 0.6)` | 4 | Positivo |
+| `≥ 0.6` | 5 | Muy positivo |
+
+**Per-question rule by type:**
+
+| Type | Questions | Rule | Example |
+|---|---|---|---|
+| `positive` | P10, P14 | Raw sentiment → Likert. | *"Muy bueno e interesante"* → 4 |
+| `negative` | P11, P22 | Favorable keywords (e.g. *ninguno*, *nada*) → 5; unfavorable (e.g. *difícil*, *confuso*) → 1–2; otherwise sentiment is **inverted**. | *"Muy confusos"* (P11) → 1 |
+| `recommendation` | P15, P21 | Affirmative tokens (*sí*, *claro*, *me gustaría*) → 4–5; negative tokens (*no*, *no creo*) → 1; sentiment as tiebreaker. | *"No lo necesito en mi vida laboral"* (P15) → 1 |
+| `comparison` | P12 | Count comparative cues (*mejor*, *peor*, *más fácil*, *más difícil*); diff drives the Likert. | *"Este lenguaje es más completo"* → 4 |
+| `suggestion` | P18, P19, P23 | **Not** mapped to favorability. Reported in a separate engagement table (chars and # of suggested items per response). | — |
+
+A lightweight negation guard flips a keyword's polarity if preceded by *no* / *nunca* / *jamás* in the same clause (e.g. *"no fue fácil"* doesn't count as favorable).
+
+**Colombian slang.** Before scoring, the script merges `colombian-slang-es.json` into NLP.js's senticon dictionary so regionalisms map to their *Colombian* sense — without that, *"chévere"* scores -0.25 (mistaken for an unrelated Spanish stem), *"brutal"* -0.34 (literal sense), and *"jartera"* / *"maluco"* are simply absent. The console reports how many entries were injected and which ones overrode an existing standard-Spanish value, and the full report is saved under `slang` in `sentiment-results.json`.
+
+### Extended analyses
+
+On top of the per-question favorability/engagement tables, the script emits three additional reports that together test and contextualise the text-derived signal.
+
+**Bootstrap 95% CIs.** Every average in the favorability, engagement, quantitative and pre/post tables now ships with a bootstrap confidence interval (1000 resamples). With *n* = 30 — and as low as 8 valid responses for some evaluator questions — point estimates are easy to over-read; the interval makes the noise floor explicit (e.g. *P22 = 2.75 [2.38, 3.00]*).
+
+**Anchoring against explicit Likert questions.** P4–P8 (ease, utility, overall experience) and P20 (would-you-recommend) are explicit 1–5 questions answered by the same respondent that wrote the open-ended fields. The script computes a Spearman ρ between the text-derived Likert and the conceptually parallel quantitative one — for example, P11 *"what was hardest?"* (inverted to favorability) versus P4 *"how easy was it to understand?"*. A composite of *all* text-Likerts versus a composite of *all* explicit Likerts is also reported. ρ ≈ 0 means the text analysis is not tracking what people explicitly said; moderate-to-strong positive ρ is direct validation that the question-aware rules and the negative-question inversion are doing real work.
+
+**Pedagogical impact (P16 vs P17).** Columns 16 and 17 hold tuples like `"3,4,2,1,3"` and `"4,4,3,3,3"` — each respondent's self-rated comprehension of five programming concepts *before* and *after* using SCuLPT. The script parses both tuples per respondent, computes a paired delta per concept, and reports the mean delta with a bootstrap 95% CI. A CI that excludes 0 is the closest thing this corpus has to a statistically backed claim about SCuLPT's learning impact, broken down by concept (variables, operations, control structures, data structures, programming logic).
+
+These analyses persist under `summary.quantSummary`, `summary.anchors`, and `summary.prePost` in `sentiment-results.json`, plus a per-respondent record under `perRow` (quantitative answers, text Likerts, pre/post tuples) for downstream stats work.
+
+**Running it:**
+
+```bash
+cd data
+npm install
+npm start
+```
+
+The script prints two console tables — **Favorabilidad hacia SCuLPT** and **Engagement** — and writes `sentiment-results.json` with the question text, summaries, and per-cell rule trace (`type`, `reason`, raw sentiment, final Likert).
 
 ---
 
