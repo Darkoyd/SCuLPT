@@ -32,32 +32,41 @@ The language is intentionally minimal: a small set of operations is enough to ex
 
 ### Stacks (FILO)
 
-SCuLPT programs operate on one or more named stacks. Each stack follows a **First In, Last Out** (FILO / LIFO) discipline — the last value pushed is the first one retrieved. Most operations reference a specific stack by name as part of their syntax.
+SCuLPT programs operate on one or more named stacks. Each stack follows a **First In, Last Out** (FILO / LIFO) discipline. The last value pushed is the first one retrieved. Most operations reference a specific stack by name as part of their syntax.
+
+Stacks hold numbers and one special value, `nil`. `nil` is the empty value. An operation that needs a value from an empty stack gets `nil`. The papers write this same value as `#` in the Turing machine sections.
+
+Every operation consumes the stack values that it reads. No operation reads a value and leaves it on the stack.
 
 ### Operations
 
 | Operation | Icon | Description | Syntax |
 |-----------|------|-------------|--------|
-| **Push** | ↓ | Pushes a number onto the given stack | `<Push><Stack><Number>` |
-| **Pop** | ↑ | Removes the topmost value from the given stack. Popped values are discarded — use Move if you need to keep them. | `<Pop><Stack><Number>` |
-| **Move** | ↓□ | Pops the topmost value from one stack and pushes it onto another | `<Move><Stack1><Stack2>` |
-| **Duplicate** | ⧉ | Copies the topmost item and pushes it back onto the same stack | `<Duplicate><Stack>` |
-| **Compare** | ⟺ | Compares the two topmost values of the stack. Pushes `1` if the first is greater, `0` if equal, `-1` if lesser | `<Compare><Stack>` |
-| **Jump** | ↺ | Pops the topmost value and jumps that many blocks forward or backward. Decimal values are floored. Negative jumps work as expected. | `<Jump><Stack>` |
-| **Question** | ? | Pops the topmost value. If positive, executes the next block; otherwise skips it and resumes execution | `<Question><Stack> [TrueBlock]` |
+| **Push** | ↓ | Puts a literal number on the top of the given stack. The second parameter is always a literal number. To move a value from one stack to another, use Move. | `<Push><Stack><Number>` |
+| **Pop** | ↑ | Removes the top value of the given stack. The value is discarded. To keep it, use Move. | `<Pop><Stack>` |
+| **Move** | ↓□ | Pops the top value of the source stack and pushes it onto the destination stack. The first parameter is the destination. The second is the source. If the source is empty, Move pushes `nil`. | `<Move><Destination><Source>` |
+| **Duplicate** | ⧉ | Pushes a copy of the top value onto the same stack. If the stack is empty, Duplicate pushes `nil`. | `<Duplicate><Stack>` |
+| **Compare** | ⟺ | Pops the top value, then pops the value below it. Pushes `1` if the first value is greater, `0` if the two are equal, and `-1` if the first value is lesser. A missing value counts as `nil`. One `nil` operand gives `nil`. Two `nil` operands give `1`. | `<Compare><Stack>` |
+| **Compare with a literal** | ⟺ | Pops the top value and compares it with the literal. The stack value is the left operand. The literal can be `nil`, so `<Compare><Stack>nil` gives `1` if the top value is `nil`, and `nil` if it is a number. Use this to test a value before you operate on it. | `<Compare><Stack><Number>` |
+| **Jump** | ↺ | Moves the execution forward or backward by the given number of blocks. Give the offset as a literal number, or as a stack. With a stack, Jump pops the top value and uses it as the offset. Decimal values are truncated. | `<Jump><Number>` or `<Jump><Stack>` |
+| **Question** | ? | Pops the top value. If the value is `0` or greater, the next block runs. If the value is negative, or if it is `nil`, Question skips the next block and resumes after it. | `<Question><Stack> [TrueBlock]` |
 
 ### Arithmetic Operations
 
-Arithmetic operations consume the two topmost values of the specified stack and push the result back onto it. The general syntax is `<Operation><Stack>`.
+Each arithmetic operation has two forms. The one-parameter form pops the top value of the stack, then pops the value below it, and pushes the result. The two-parameter form pops the top value only, and uses the literal number as the second operand. In both forms the value from the stack is the left operand. A subtraction on a stack with `5` on top and `3` below it pushes `2`.
 
-| Operation | Symbol |
-|-----------|--------|
-| Addition | `+` |
-| Subtraction | `−` |
-| Multiplication | `*` |
-| Division | `/` |
-| Modulo | `%` |
-| Negation | `¬` |
+Division by zero and modulo by zero push `nil`. Any other arithmetic on a `nil` value stops the program with an error. Compare accepts `nil`, so a program can test a value with `<Compare><Stack>nil` and branch on the result before it operates on that value.
+
+Negation is different. It takes one stack, pops the top value, and pushes the negation of that value.
+
+| Operation | Symbol | Syntax |
+|-----------|--------|--------|
+| Addition | `+` | `<Addition><Stack>` or `<Addition><Stack><Number>` |
+| Subtraction | `−` | `<Subtraction><Stack>` or `<Subtraction><Stack><Number>` |
+| Multiplication | `*` | `<Multiplication><Stack>` or `<Multiplication><Stack><Number>` |
+| Division | `/` | `<Division><Stack>` or `<Division><Stack><Number>` |
+| Modulo | `%` | `<Modulo><Stack>` or `<Modulo><Stack><Number>` |
+| Negation | `¬` | `<Negation><Stack>` |
 
 ---
 
